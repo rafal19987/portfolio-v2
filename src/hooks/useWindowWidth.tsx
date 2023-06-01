@@ -6,9 +6,11 @@ export default function useWindowWidth() {
   const [windowWidth, setWindowWidth] = useState({ width: window.innerWidth });
 
   useEffect(() => {
-    window.addEventListener('resize', () => {
-      setWindowWidth({ width: window.innerWidth });
-    });
+    if (window !== undefined) {
+      window.addEventListener('resize', () => {
+        setWindowWidth({ width: window.innerWidth });
+      });
+    }
   }, []);
 
   return windowWidth;
