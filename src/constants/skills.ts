@@ -3,7 +3,7 @@ export const skills = [
     skill: 'HTML/BEM',
   },
   {
-    skill: 'CSS/SASS/Styled-components/Css Modules',
+    skill: 'CSS/SASS/Styled-components',
   },
   {
     skill: 'Tailwind',
@@ -13,6 +13,9 @@ export const skills = [
   },
   {
     skill: 'Next.js',
+  },
+  {
+    skill: 'Rest API',
   },
   {
     skill: 'Git/Github',

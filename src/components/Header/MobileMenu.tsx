@@ -1,7 +1,4 @@
-import { routes } from '@/routes/routes';
-import { routeTypes } from '@/types/types';
 import MobileMenuItems from './MobileMenuItems';
-import Link from 'next/link';
 
 const MobileMenu = ({ isMenuOpen }: { isMenuOpen: boolean }) => {
   return (
