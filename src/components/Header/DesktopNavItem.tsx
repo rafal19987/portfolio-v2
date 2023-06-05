@@ -1,11 +1,18 @@
+'use client';
+
 import Link from 'next/link';
 import { routeTypes } from '@/types/types';
+import { usePathname } from 'next/navigation';
 
 const DesktopNavItem = ({ reference, description }: routeTypes) => {
+  const pathname = usePathname();
+
   return (
-    <li className="relative">
+    <li className={`relative`}>
       <Link
-        className="text-base text-white hover:text-[var(--secondary-text-color)] md:text-md after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-1 after:rounded-lg after:bg-[var(--secondary-text-color)] hover:after:w-full  after:transition-all after:duration-300 lg:text-lg xl:text-xl transition-colors duration-300"
+        className={`${
+          pathname === reference && 'navActiveLink'
+        } navLink md:text-md lg:text-lg xl:text-xl `}
         href={reference}
       >
         {description}

@@ -18,7 +18,7 @@ I am highly motivated, ambitious, and ready to take on new challenges. Currently
       <div className="w-fit mt-16 px-4 py-2 bg-[var(--dark-blue)] lg:mt-24">
         <SectionHeader text="Frontend skills" />
       </div>
-      <div className="mt-12 w-4/5 lg:w-3/5 ">
+      <div className="mt-12 w-4/5 mb-12 lg:w-3/5">
         <SkillsList />
       </div>
     </div>

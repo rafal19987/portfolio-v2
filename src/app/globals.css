@@ -5,7 +5,39 @@
 :root {
   --body-bg-color: #0a192f;
   --green: #64ffda;
+  --green-50: #64ffda/50;
   --dark-blue: #112240;
   --primary-text-color: #ccd6f6;
   --secondary-text-color: #64ffda;
+}
+
+@layer components {
+  .navLink {
+    font-size: 16px;
+    color: white;
+  }
+  .navLink::after {
+    position: absolute;
+    left: 0px;
+    bottom: -4px;
+    width: 0px;
+    height: 4px;
+    content: '';
+    border-radius: 8px;
+    background-color: var(--secondary-text-color);
+    transition: all cubic-bezier(0.4, 0, 0.2, 1) 300ms;
+    color: var();
+  }
+  .navLink:hover:after {
+    width: 100%;
+  }
+  .navLink:hover {
+    color: var(--secondary-text-color);
+  }
+  .navActiveLink {
+    color: var(--secondary-text-color);
+  }
+  .navActiveLink:hover:after {
+    width: 0px;
+  }
 }
