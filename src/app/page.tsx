@@ -37,13 +37,13 @@ export default function Home() {
         </h2>
         <h3 className="realtive mt-4 text-md ">
           I am an aspiring Frontend Developer focusing mainly on working with
-          React (half year exp as selftougth). I`m also occassionally desigining
-          layouts in Figma. My career so far was consisten on working with a
-          clients as a seller man
+          React (half-year experience as self-taught). I`m also occasionally
+          designing layouts in Figma. My career so far has consisted of working
+          with clients as a salesperson.
         </h3>
         <div className="absoute w-full h-1 mt-4  bg-gradient-to-r  from-cyan-500/0 via-[var(--green)] to-cyan-0"></div>
       </div>
-      <div className="w-4/5 mt-20 lg:mt-14 lg:w-3/5">
+      <div className="w-4/5 mt-20 mb-20 lg:mt-14 lg:w-3/5">
         <div className="flex items-center justify-start w-full h-full">
           <button className="w-fit h-full py-4 px-8 border border-[var(--green)] text-[var(--secondary-text-color)]  hover:bg-[var(--dark-blue)] transition-colors duration-300">
             Download my resume
