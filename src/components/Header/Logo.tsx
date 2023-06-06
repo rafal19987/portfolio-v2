@@ -6,7 +6,7 @@ const Logo = () => {
   return (
     <Image
       className="absolute"
-      src={animated2}
+      src={logo}
       fill={true}
       alt="logo icon"
       priority={true}

@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'main-page-bg': "url('@/assets/background.jpg')",
+      },
       animation: {
         'spin-slow': 'spin 6s linear infinite',
       },
