@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <header className="flex items-center justify-between w-screen h-20 border-b-2 border-[var(--dark-blue)] ">
       <m.div
-        initial={{ y: '50vh', x: 'calc(50vw - 3.5rem)', scale: 8 }}
+        initial={{ y: '50vh', x: 'calc(50vw - 3.5rem)', scale: 5 }}
         animate={{ y: '0', x: '0', scale: 1 }}
         transition={{ delay: 0.5, duration: 0.8 }}
         className="relative flex items-center justify-center w-12 h-12 ml-8  "
